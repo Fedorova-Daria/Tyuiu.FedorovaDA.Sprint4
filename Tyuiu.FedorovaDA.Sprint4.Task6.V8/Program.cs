@@ -34,10 +34,11 @@ namespace Tyuiu.FedorovaDA.Sprint4.Task6.V8
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Слова которые имеют больше 4 символов: ");
-            string[] res = ds.Calculate(dishes);
-            
-
-            Console.WriteLine(res);
+            string[] result = ds.Calculate(dishes);
+            foreach (string s in result)
+            {
+                Console.WriteLine(s);
+            }
         }
     }
 }

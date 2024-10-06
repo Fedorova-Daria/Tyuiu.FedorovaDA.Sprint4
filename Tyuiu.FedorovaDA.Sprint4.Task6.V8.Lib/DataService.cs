@@ -5,15 +5,30 @@ namespace Tyuiu.FedorovaDA.Sprint4.Task6.V8.Lib
     {
         public string[] Calculate(string[] array)
         {
-            List<string> dishes = new List<string>();
-            foreach (string item in array)
+            int count = 0;
+            foreach (string dish in array)
             {
-                if (item.Length > 4)
+                if (dish.Length > 4)
                 {
-                    dishes.Add(item);
+                    count++;
                 }
             }
-            return dishes;
+
+            
+            string[] filteredDishes = new string[count];
+            int index = 0;
+
+            
+            foreach (string dish in array)
+            {
+                if (dish.Length > 4)
+                {
+                    filteredDishes[index] = dish;
+                    index++;
+                }
+            }
+
+            return filteredDishes;  
         }
     }
 }
