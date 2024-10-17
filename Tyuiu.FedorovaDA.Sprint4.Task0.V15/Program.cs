@@ -28,7 +28,7 @@ namespace Tyuiu.FedorovaDA.Sprint4.Task0.V15
             Console.WriteLine("Исходный массив:");
             for (int i = 0; i < numsArray.Length; i++)
             {
-                Console.WriteLine(numsArray[i]);
+                Console.Write(numsArray[i]);
             }
 
             Console.WriteLine("***************************************************************************");

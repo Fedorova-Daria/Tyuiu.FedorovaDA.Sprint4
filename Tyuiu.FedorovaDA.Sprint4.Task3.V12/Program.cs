@@ -19,7 +19,7 @@ namespace Tyuiu.FedorovaDA.Sprint4.Task3.V12
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Тема: Одномерные массивы. (ввод с клавиатуры)                           *");
+            Console.WriteLine("* Тема: Двумерные массивы. (статический ввод)                             *");
             Console.WriteLine("* Задание #3                                                              *");
             Console.WriteLine("* Вариант #12                                                             *");
             Console.WriteLine("* Выполнила: Федорова Дарья Артемовна | АСОиУб-24-1                       *");
